@@ -1,0 +1,270 @@
+<!-- Go to this github repo  https://github.com/ashiksanyo10/Port_Temp.git and clone it to your local machine -->
+<!-- Open the local copy of code and edit the templete -->
+
+
+<!-- Dont alter any tags, fill in you information on required field only and dont alter style.css and javascript file-->
+<!-- once editing the templete, Create a github repo and push the code-->
+<!-- you can host the website on gitpages or netlify  -->
+<!---->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sherwyn Misquitta</title>    <!-- Change it your name  --> 
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+     
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Internship</a>
+          </li>
+          <!--   <li class="nav__list-item">
+            <a class="link link--nav" href="#Exp">Experience</a>
+          </li>-->
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Sherwyn T.D. Misquitta.</span></h1>
+        <h2 class="about__role">Data Scientist</h2>
+        <p class="about__desc"> <!-- Edit the About make sure you add your degree!-->
+          I am a dedicated Data Scientist with a passion for problem-solving and a razor sharp focus on delivering impactful solutions. My affinity for coding is more than a skill !
+        </p> <!-- about you -->
+        <br>
+        <a href="mailto:misquittasherwyn@gmail.com">Mail: misquittasherwyn@gmail.com </a><p> Contact: +91 93073 99412</p>  <!--Change it to your mail id and contact no-->
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1OGnfvZu-UwVEIgGih9gahQC-99ghqcy0/view?usp=drive_link" target="_blank"  > <!-- drive link for resume-->
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/SherwynM" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> <!-- Github profile Link-->
+
+          <a
+            href="https://www.linkedin.com/in/sherwyn-misquitta-25276b269/" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- LinledIn profile Link-->
+          <a
+            href="https://www.kaggle.com/sherwynmisquitta" target="_blank"  
+            aria-label="kaggle"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-kaggle"></i>
+          </a> <!-- LinledIn profile Link-->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Real-Time Drowsiness Detection with Alert System</h3> <!--Peoject Title -->
+            <p class="project__description">
+              Developed a high-accuracy, real-time drowsiness detection system using OpenCV and YOLO, with integrated alert mechanisms and continuous state logging, optimized for robust, efficient performance in live video applications.
+            </p> <!--Project description-->
+            
+            <br/>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">OpenCV</li>
+              <li class="project__stack-item">YOLO</li>
+              <li class="project__stack-item">Pygame</li>
+              
+            </ul>
+
+            <a
+              href="https://github.com/SherwynM/Drowsiness-Detection-System-YOLO" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >  <!--Project link-->
+
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            
+          </div>
+
+          <div class="project">
+            <h3>News Article Categorization and Storage System</h3>
+            <p class="project__description">
+              Developed a comprehensive NLP-powered system that categorizes and stores news articles from multiple RSS feeds in real-time. This scalable solution leverages machine learning, database management, and data processing automation for high efficiency.
+               </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Flask</li>
+              <li class="project__stack-item">Transformers</li>
+              <li class="project__stack-item">SQLAlchemy</li>
+              <li class="project__stack-item">BeautifulSoup</li>
+              <li class="project__stack-item">Torch</li>
+              <li class="project__stack-item">MySQL</li>
+            </ul>
+
+            <a
+              href="https://github.com/SherwynM/News-Article-Categorization-System-with-BERT-Fine-Tuning-and-SQLAlchemy" target="_blank"
+              aria-label="https://github.com/SherwynM/News-Article-Categorization-System-with-BERT-Fine-Tuning-and-SQLAlchemy" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            
+              
+          </div>
+          <div class="project">
+            <h3>Book Recommendation System</h3>
+            <p class="project__description">
+              Built a personalized Book Recommendation System leveraging collaborative filtering and machine learning for precise suggestions. Enhanced with Flask, TinySlider, and an intuitive UI for seamless user experience.
+              </p>
+              <br/>
+              <br/>
+            <ul class="project__stack">
+              <li class="project__stack-item">Numpy</li>
+              <li class="project__stack-item">Pandas</li>
+              <li class="project__stack-item">Scikit-learn</li>
+              <li class="project__stack-item">TinySlider</li>
+            </ul>
+
+            <a
+              href="https://github.com/SherwynM/Book-Recommender-System" target="_blank"
+              aria-label="https://github.com/SherwynM/Book-Recommender-System"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            
+              
+          </div>
+         
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Internships </h2>
+
+      <div class="project">
+        <h3>Open Weaver   <p aligh="right"> (June '23)</p></h3>
+        <p class="project__description">
+          AI Engineer - Open Weaver 2023 May-June
+          Developed real-world applications in diverse domains:
+          Breast Cancer Prediction:Implemented machine learning models for early detection.
+          Fake News Detection: Created algorithms to identify false information.
+          Real-Time Object Recognition: Developed systems for recognizing objects in live video feeds.
+          Utilized the company's product for project contributions and resource sharing.
+          Conducted data processing, feature extraction, and model training.
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+          <li class="project__stack-item">AI Engineering</li>
+          <li class="project__stack-item">Machine Learning</li>
+          <li class="project__stack-item">NLP</li>
+        </ul>
+ 
+       
+       
+      </div>
+      <div class="project">
+
+
+        <h3> Noam Academy  <p aligh="right"> (February-May '24)</p></h3>
+        <p class="project__description">
+          Built a chatbot for an educational website to translate text from English to German
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">AWS</li>
+          <li class="project__stack-item">Cloud</li>
+          <li class="project__stack-item">Amazon Lex</li>
+        </ul>
+ 
+        
+        
+      </div>
+    </div>
+  </section>
+
+ <!-- duplicate the above section and you can change it to paper or experience-->
+
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+                            <!--You can fill in the elective course and you can remove extras-->
+       
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Machine Learning</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Computer Vision</li>
+          <li class="skills__list-item btn btn--plain">Statistics</li>
+          <li class="skills__list-item btn btn--plain">NLP</li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  
+        Created By Sherwyn T.D. Misquitta! <!-- edit it to your name -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
